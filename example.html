@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="ouical.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>OuiCal Example</title>
+  </head>
+
+  <body>
+    <div class="new-cal"></div>
+    <div class="new-cal2"></div>
+  <script>
+      var myCalendar = createCalendar({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                          
+        },
+        data: {
+          title: 'Get on the front page of HN',    
+          start: new Date('June 15, 2013 19:00'), 
+          duration: 120,                   
+          end: new Date('June 15, 2013 23:00'),   
+                                                    
+          address: 'The internet',
+          description: 'Get on the front page of HN, then prepare for world domination.'
+        }
+      }),
+      myCalendar2 = createCalendar({
+        options: {
+          class: 'my-class'                     
+        },
+        data: {
+          title: 'Go to the gym',
+          start: new Date('June 15, 2013 17:00'),
+          duration: 60,
+          address: 'Tough Boys Gym',
+          description: 'Work them biceps out.'
+        }
+      });
+
+      document.querySelector('.new-cal').appendChild(myCalendar);
+      document.querySelector('.new-cal2').appendChild(myCalendar2);
+  </script>
+  </body>
+</html>

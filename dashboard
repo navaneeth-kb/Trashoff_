@@ -1,0 +1,137 @@
+<html>
+<style>
+.cards {
+   text-align: center;
+   font-family:'PT Sans', sans-serif;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 0.8rem;
+  position: relative;
+  width: 310px;
+   padding-bottom:10px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.cards > img {
+  margin-top:35px;
+ margin-bottom:8px;
+}
+.cards > H2 {
+ font-family:'PT Sans', sans-serif;
+}
+.cards > p {
+ font-family:'PT Sans', sans-serif;
+  padding-left:2.2rem;
+  padding-right:2.2rem;
+}
+
+.btns {
+  background: #172d46;
+  border: 0;
+  border-radius: .375em;
+  color: #fff;
+  cursor: pointer;
+  margin: .25em;
+ padding: 0.75em 1.4em;
+ font-size: 0.8em;
+  transition: all .125s ease-in-out;
+  
+  &:hover,
+  &:focus {
+    box-shadow: 0 .625em 1.25em 0 rgba(#172d46, .3);
+  }
+  
+  &:active {
+    box-shadow: 0 .125em .25em 0 rgba(#172d46, .3);    
+  }
+}
+
+.btns--large {
+  font-size: 1.25em;
+}
+</style>
+<body>
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/50/000000/domain.png"/>
+  <h2>Website Dashboard</h2>
+  <p>Click here to view & manage your website.</p>
+  <button class="btns" onclick="window.location.href='/your-project'">Go to Your Website Dashboard
+</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/smm.png"/>
+  <h2>Social Media Dashboard</h2>
+  <p>Click here to view & manage your social media accounts.</p>
+  <button class="btns" onclick="window.location.href='https://app.socialpilot.co/client/link/index'">Go To Your Social Media Dashboard
+</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/50/000000/task.png"/>
+  <h2>Project</h2>
+  <p>Click here to view status updates and project progress.</p>
+   <button class="btns" onclick="window.location.href='/your-project'">View Your Project(s)</button>
+
+</div>
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/calendar.png"/>
+ <h2>Calendar</h2>
+<p>Click here to view your tasks, events, and appointments.</p>
+ <button class="btns" onclick="window.location.href='/your-calendar'">View Your Calendar</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/upload-to-cloud.png"/>
+  <h2>View & Upload Documents</h2>
+  <p>Click here to view and securely upload documents.</p>
+  <button class="btns" onclick="window.location.href='/files/home'">View & Upload Documents</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/online-payment-.png"/>
+  <h2>Billing</h2>
+  <p>Click here to view and make payments on your invoice(s).</p>
+  <button class="btns" onclick="window.location.href='/invoices/admin'">View Invocies & Make Payments</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/key.png"/>
+  <h2>Submit Login Credentials</h2>
+  <p>Click here to securely send and update auxiliary account credentials.</p>
+  <button class="btns" onclick="window.location.href='link_to_portal_page_here'">Submit Credentials</button>
+</div>
+
+<div class="cards card-1">
+  <img src="https://img.icons8.com/dusk/64/000000/combo-chart.png"/>
+  <h2>Reports</h2>
+  <p>Click here to view your website’s and marketing campaign reports.</p>
+  <button class="btns" onclick="window.location.href='link_to_portal_page_here'">View My Reports</button>
+</div>
+
+<div class="cards card-1">
+<img src="https://img.icons8.com/dusk/64/000000/google-sites.png"/>
+<h2>Resources & Training</h2>
+<p>Click here to access important tutorials and trainings.</p>
+<button class="btns" onclick="window.location.href='link_to_portal_page_here'">Go to Resources/Training</button>
+</div>
+
+<div class="cards card-1">
+<img src="https://img.icons8.com/dusk/50/000000/online-support--v2.png"/>
+<h2>Emergency Support</h2>
+<p>Click here to get immediate assistance from our support team.</p>
+<button class="btns" onclick="window.location.href='/message/new'">Contact Us</button>
+</div>
+</div>
+</body>
+</html>
