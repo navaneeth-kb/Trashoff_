@@ -11,7 +11,9 @@ This project was built as a way for me to practice and learn the fundamentals of
 Technologies Used:
 
 HTML
+
 CSS
+
 JavaScript
 
 
