@@ -28,4 +28,4 @@ index.html: Main HTML file.
 
 Original Project:
 
-The original version of this project can be found: https://github.com/navaneeth-kb/trashoff-1st-try-
+The original version of this project can be found: https://github.com/navaneeth-kb/Trashoff/trashoff-1st-try-
